@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>نتيجة الإعدادية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/MOE_Egypt_Logo.svg/1200px-MOE_Egypt_Logo.svg.png" alt="شعار المدرسة">
+    </div>
+    <h1>نتيجة الإعدادية</h1>
+    <p>مدرسة برج مغيزل الإعدادية بنين - العام الدراسي 2024 / 2025</p>
+    <a class="school-link" href="https://moe.gov.eg" target="_blank">الموقع الرسمي للمدرسة</a>
+  </header>
+
+  <div class="container">
+    <div id="searchSection" class="search-area">
+      <h2>البحث عن نتائج الطالب</h2>
+      <label>أدخل رقم الطالب:</label><br>
+      <input type="text" id="studentIdInput" placeholder="مثال: 12345">
+      <button onclick="searchStudent()">بحث</button>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
