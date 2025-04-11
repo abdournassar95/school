@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>نتيجة الإعدادية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>نتيجة الإعدادية</h1>
+    <p>مدرسة برج مغيزل الإعدادية بنين - العام الدراسي 2024 / 2025</p>
+  </header>
+
+  <div class="container">
+    <div class="search-area" id="searchArea">
+      <label>أدخل رقم الطالب:</label><br>
+      <input type="text" id="studentIdInput" placeholder="مثال: 1">
+      <button onclick="searchStudent()">بحث</button>
+    </div>
+
+    <div class="result" id="result" style="display:none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
